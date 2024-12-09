@@ -286,3 +286,32 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [09Dec2024 17:46:32.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] estan los 2? ya voy entrando
 [09Dec2024 17:47:24.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Romnd> toma
 [09Dec2024 17:47:39.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Getting an Upgrade]
+[09Dec2024 17:51:46.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Alex's Mobs]
+[09Dec2024 17:51:50.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> pera
+[09Dec2024 17:52:28.869] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-325, y=64, z=-86} BlockPos{x=-325, y=63, z=-85}
+[09Dec2024 17:52:30.118] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-326, y=66, z=-88} BlockPos{x=-326, y=65, z=-90}
+[09Dec2024 17:54:04.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola
+[09Dec2024 17:55:27.932] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 16216ff4-2903-338e-8c75-1183b582c2e9 timed out
+[09Dec2024 17:55:27.933] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player iVeerzay
+[09Dec2024 17:55:27.934] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to iVeerzay
+[09Dec2024 17:55:38.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> se fue el audio
+[09Dec2024 17:55:40.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> XD
+[09Dec2024 17:55:41.788] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 16216ff4-2903-338e-8c75-1183b582c2e9
+[09Dec2024 17:55:42.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 16216ff4-2903-338e-8c75-1183b582c2e9
+[09Dec2024 17:55:42.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player iVeerzay (16216ff4-2903-338e-8c75-1183b582c2e9) successfully connected to voice chat
+[09Dec2024 17:56:54.395] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rCesar_[/127.254.202.117:45809] logged in with entity id 15851 at (-132.2332288697064, -8.0, -54.2662425283169)
+[09Dec2024 17:56:54.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ joined the game
+[09Dec2024 17:56:56.491] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of rCesar_ (18)
+[09Dec2024 17:56:56.491] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to rCesar_
+[09Dec2024 17:57:18.167] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player c81e10d8-a2b3-370d-a0ee-7688f0683cc9
+[09Dec2024 17:57:19.156] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player c81e10d8-a2b3-370d-a0ee-7688f0683cc9
+[09Dec2024 17:57:19.156] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player rCesar_ (c81e10d8-a2b3-370d-a0ee-7688f0683cc9) successfully connected to voice chat
+[09Dec2024 17:57:29.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported rCesar_ to Romnd]
+[09Dec2024 17:58:00.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> no se han matado vdd?
+[09Dec2024 17:58:12.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Romnd> no
+[09Dec2024 17:58:37.194] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-32, y=76, z=-161} BlockPos{x=-31, y=74, z=-160}
+[09Dec2024 17:58:41.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported rCesar_ to Romnd]
+[09Dec2024 17:59:11.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd fell from a high place
+[09Dec2024 17:59:26.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported Romnd to rCesar_]
+[09Dec2024 18:00:13.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> el no está en la fg rom, no conoce a dau
+[09Dec2024 18:00:33.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay fell from a high place
