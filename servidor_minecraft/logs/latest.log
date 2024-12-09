@@ -243,3 +243,46 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [09Dec2024 17:39:49.067] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=72, z=-33} BlockPos{x=-57, y=65, z=-25}
 [09Dec2024 17:39:49.316] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=72, z=-33} BlockPos{x=-58, y=65, z=-25}
 [09Dec2024 17:39:49.416] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=72, z=-33} BlockPos{x=-58, y=66, z=-24}
+[09Dec2024 17:41:15.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] alo
+[09Dec2024 17:41:19.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] quienes estan
+[09Dec2024 17:41:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Stone Age]
+[09Dec2024 17:41:23.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> YO
+[09Dec2024 17:41:23.799] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Romnd[/127.189.140.85:46327] logged in with entity id 6569 at (-57.5, 77.0, -19.5)
+[09Dec2024 17:41:23.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd joined the game
+[09Dec2024 17:41:24.776] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Romnd (18)
+[09Dec2024 17:41:24.776] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Romnd
+[09Dec2024 17:41:29.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola rom
+[09Dec2024 17:41:40.383] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2cf7219f-1309-3be4-8672-30459d9a12f7
+[09Dec2024 17:41:41.384] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2cf7219f-1309-3be4-8672-30459d9a12f7
+[09Dec2024 17:41:41.385] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Romnd (2cf7219f-1309-3be4-8672-30459d9a12f7) successfully connected to voice chat
+[09Dec2024 17:41:45.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] ya entro, llevate bien el pana que lo invite a testear
+[09Dec2024 17:41:54.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Romnd> hola
+[09Dec2024 17:41:57.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> hi
+[09Dec2024 17:42:03.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] no se maten
+[09Dec2024 17:42:05.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Romnd> que hubo
+[09Dec2024 17:42:15.050] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Romnd lost connection: Disconnected
+[09Dec2024 17:42:15.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd left the game
+[09Dec2024 17:42:15.052] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Romnd
+[09Dec2024 17:43:02.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Getting an Upgrade]
+[09Dec2024 17:43:36.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] q
+[09Dec2024 17:43:41.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> c fue el papu
+[09Dec2024 17:43:44.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] XD
+[09Dec2024 17:44:35.850] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Romnd[/127.189.140.85:42325] logged in with entity id 9222 at (-125.5188128995278, 67.0, 71.4307963290919)
+[09Dec2024 17:44:35.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd joined the game
+[09Dec2024 17:44:36.662] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Romnd (18)
+[09Dec2024 17:44:36.662] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Romnd
+[09Dec2024 17:44:50.817] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2cf7219f-1309-3be4-8672-30459d9a12f7
+[09Dec2024 17:44:51.817] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2cf7219f-1309-3be4-8672-30459d9a12f7
+[09Dec2024 17:44:51.818] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Romnd (2cf7219f-1309-3be4-8672-30459d9a12f7) successfully connected to voice chat
+[09Dec2024 17:45:03.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay was shot by Skeleton
+[09Dec2024 17:45:13.768] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-55, y=64, z=-15}
+[09Dec2024 17:45:15.669] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-54, y=65, z=-19}
+[09Dec2024 17:45:16.275] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-55, y=65, z=-18}
+[09Dec2024 17:45:17.269] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-55, y=65, z=-18}
+[09Dec2024 17:45:18.350] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-55, y=64, z=-17}
+[09Dec2024 17:45:18.626] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-56, y=65, z=-17}
+[09Dec2024 17:46:13.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola que pssohola que paso aso
+[09Dec2024 17:46:21.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Stone Age]
+[09Dec2024 17:46:32.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] estan los 2? ya voy entrando
+[09Dec2024 17:47:24.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Romnd> toma
+[09Dec2024 17:47:39.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Getting an Upgrade]
