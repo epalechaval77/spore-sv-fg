@@ -379,3 +379,52 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [09Dec2024 18:10:33.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Set own game mode to Creative Mode]
 [09Dec2024 18:10:43.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd was slain by Zombie
 [09Dec2024 18:10:47.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> X
+[09Dec2024 18:10:51.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -41.500000, -29.500000, -48.500000]
+[09Dec2024 18:11:02.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set rCesar_'s game mode to Survival Mode]
+[09Dec2024 18:11:47.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Diamonds!]
+[09Dec2024 18:12:03.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [KEEP ROLLIN' ROLLIN' ROLLIN']
+[09Dec2024 18:12:03.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ has made the advancement [KEEP ROLLIN' ROLLIN' ROLLIN']
+[09Dec2024 18:12:12.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ hit the ground too hard
+[09Dec2024 18:12:12.159] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for rCesar_ with unique ID travelersbackpack.standard_09.12.2024-18.12.12.dat
+[09Dec2024 18:12:12.162] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: -72 Y: -28 Z: -43
+[09Dec2024 18:12:12.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd was eaten alive by Wendigo
+[09Dec2024 18:12:12.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay was shot by Skeleton
+[09Dec2024 18:12:20.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> comencemos de 0
+[09Dec2024 18:12:21.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -73.500000, -50.500000, 12.500000]
+[09Dec2024 18:12:30.759] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-43, y=63, z=-15}
+[09Dec2024 18:12:30.807] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-43, y=64, z=-17}
+[09Dec2024 18:12:32.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported 3 entities to rCesar_]
+[09Dec2024 18:12:34.758] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=63, z=-16}
+[09Dec2024 18:12:37.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set own game mode to Creative Mode]
+[09Dec2024 18:12:41.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> hay pvp?
+[09Dec2024 18:12:44.405] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-34, y=66, z=-26}
+[09Dec2024 18:12:49.004] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=68, z=-29}
+[09Dec2024 18:12:50.203] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=69, z=-29}
+[09Dec2024 18:12:55.453] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=70, z=-29}
+[09Dec2024 18:12:55.954] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=69, z=-29}
+[09Dec2024 18:13:02.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set own game mode to Survival Mode]
+[09Dec2024 18:13:09.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> porque hay Spawn protection
+[09Dec2024 18:13:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -50.500000, -13.500000, -85.500000]
+[09Dec2024 18:13:59.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ has made the advancement [Pic-A-Nic Basket?]
+[09Dec2024 18:14:14.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to 212.500000, 105.500000, -1411.500000]
+[09Dec2024 18:14:14.903] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2522ms or 50 ticks behind
+[09Dec2024 18:14:14.947] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rCesar_ moved too quickly! -9.287589198538058,0.8322033533667508,4.410075403895732
+[09Dec2024 18:14:19.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -695.500000, 76.500000, -1054.500000]
+[09Dec2024 18:14:19.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rCesar_ moved too quickly! -9.056887219960402,1.6960483987325432,4.663822161282262
+[09Dec2024 18:14:21.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to rCesar_]
+[09Dec2024 18:14:32.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> comen,ando
+[09Dec2024 18:15:05.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> no, luego perdemosntodo
+[09Dec2024 18:15:15.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ has made the advancement [Getting an Upgrade]
+[09Dec2024 18:15:53.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported iVeerzay to rCesar_]
+[09Dec2024 18:16:57.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Mine? Mine? Mine?]
+[09Dec2024 18:17:04.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> no
+[09Dec2024 18:17:10.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> era para ver si estabas vivo
+[09Dec2024 18:17:33.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> cuantas veces lo habrás visto
+[09Dec2024 18:18:06.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Ol' Betsy]
+[09Dec2024 18:18:06.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Take Aim]
+[09Dec2024 18:18:53.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> está vez no
+[09Dec2024 18:20:09.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd was slain by Cachalot Whale
+[09Dec2024 18:20:14.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -412.500000, 62.500000, 25.500000]
+[09Dec2024 18:20:39.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ has made the advancement [Sweet Dreams]
+[09Dec2024 18:20:45.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Gamerule playersSleepingPercentage is now set to: 1]
+[09Dec2024 18:20:53.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> tengo herrero aca
