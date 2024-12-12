@@ -10,9 +10,9 @@ IsBlacklisted: false
 #Obviously the interval option is ignored when this is on
 PermanentBloodMoon: false
 #Interval in days between BloodMoons
-BloodMoonInterval: 5
+BloodMoonInterval: 30
 #Do items despawn upon death?
-ItemDespawnUponDeath: true
+ItemDespawnUponDeath: false
 #Does experience despawn upon death?
 ExperienceDespawnsUponDeath: true
 #Maximum item amount to drop per mob death
