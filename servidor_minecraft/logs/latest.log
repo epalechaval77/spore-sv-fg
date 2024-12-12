@@ -1,331 +1,344 @@
-[16:40:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:40:06] [ServerMain/WARN]: Creating a MIN function between two non-overlapping inputs: j[function=Direct{a[type=MIN, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=SQUARE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_layer]=null}, noise=null], xzScale=1.0, yScale=8.0]}], minValue=0.0, maxValue=4.0]}], minValue=0.0, maxValue=16.0]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=0.27]}], argument2=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_cheese]=null}, noise=null], xzScale=1.0, yScale=0.6666666666666666]}], minValue=-1.73, maxValue=2.27], minValue=-1.0, maxValue=1.0]}], argument2=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=1.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-0.64]}], argument2=j[function=Reference{ResourceKey[minecraft:worldgen/density_function / bracken:omnidrome/sloped_cheese]=null}], minValue=-Infinity, maxValue=Infinity]}], minValue=-Infinity, maxValue=Infinity], minValue=0.0, maxValue=0.5]}], minValue=-1.0, maxValue=1.5]}], minValue=-1.0, maxValue=17.5]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-1.0, maxValue=0.0]}] and j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{h[value=0.0]}], minValue=0.0, maxValue=0.0]}]
-[16:40:09] [ServerMain/INFO]: Loaded 7 recipes
-[16:40:09] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[16:40:09] [Server thread/INFO]: Loading properties
-[16:40:09] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[16:40:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:40:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:40:10] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[17:15:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:15:18] [ServerMain/WARN]: Creating a MIN function between two non-overlapping inputs: j[function=Direct{a[type=MIN, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=SQUARE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_layer]=null}, noise=null], xzScale=1.0, yScale=8.0]}], minValue=0.0, maxValue=4.0]}], minValue=0.0, maxValue=16.0]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=0.27]}], argument2=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_cheese]=null}, noise=null], xzScale=1.0, yScale=0.6666666666666666]}], minValue=-1.73, maxValue=2.27], minValue=-1.0, maxValue=1.0]}], argument2=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=1.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-0.64]}], argument2=j[function=Reference{ResourceKey[minecraft:worldgen/density_function / bracken:omnidrome/sloped_cheese]=null}], minValue=-Infinity, maxValue=Infinity]}], minValue=-Infinity, maxValue=Infinity], minValue=0.0, maxValue=0.5]}], minValue=-1.0, maxValue=1.5]}], minValue=-1.0, maxValue=17.5]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-1.0, maxValue=0.0]}] and j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{h[value=0.0]}], minValue=0.0, maxValue=0.0]}]
+[17:15:21] [ServerMain/INFO]: Loaded 7 recipes
+[17:15:22] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[17:15:22] [Server thread/INFO]: Loading properties
+[17:15:22] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[17:15:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:15:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:15:23] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:40:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:40:10] [Server thread/INFO]: Default game type: SURVIVAL
-[16:40:10] [Server thread/INFO]: Generating keypair
-[16:40:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:40:10] [Server thread/INFO]: Using epoll channel type
-[16:40:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:40:10] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
-[16:40:11] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
-[16:40:11] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[16:40:11] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[16:40:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:40:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:40:12] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:40:12] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:40:13] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[16:40:14] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[16:40:14] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[16:40:14] [Server thread/INFO]: [floodgate] Took 675ms to boot Floodgate
-[16:40:14] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
-[16:40:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[16:40:14] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[16:40:14] [Server thread/INFO]: [MeteoritesPro] Loading server plugin MeteoritesPro v1.5.3
-[16:40:14] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
-[16:40:14] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.3
-[16:40:14] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
-[16:40:15] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[16:40:15] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[16:40:15] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[16:40:15] [Server thread/INFO]: [ZombieApocalypse] Loading server plugin ZombieApocalypse v1.4.10
-[16:40:15] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
-[16:40:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:40:15] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[16:40:15] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[16:40:16] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[16:40:16] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[16:40:16] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[16:40:16] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[16:40:16] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[16:40:16] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[16:40:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:40:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:40:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:40:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:40:16] [Server thread/INFO]: Preparing level "world"
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[16:40:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[16:40:18] [Server thread/WARN]: Creating a MIN function between two non-overlapping inputs: j[function=Direct{a[type=MIN, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=SQUARE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_layer]=a[firstOctave=-8, amplitudes=[1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@3a9edc8c], xzScale=1.0, yScale=8.0]}], minValue=0.0, maxValue=11.111111111111109]}], minValue=0.0, maxValue=44.444444444444436]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=0.27]}], argument2=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_cheese]=a[firstOctave=-8, amplitudes=[0.5, 1.0, 2.0, 1.0, 2.0, 1.0, 0.0, 2.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@6a2d4bad], xzScale=1.0, yScale=0.6666666666666666]}], minValue=-5.0749527959331875, maxValue=5.614952795933187], minValue=-1.0, maxValue=1.0]}], argument2=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=1.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-0.64]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=QUARTER_NEGATIVE, input=j[function=Direct{a[type=MUL, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{aa[fromY=0, toY=256, fromValue=1.5, toValue=-1.5]}], argument2=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{INSTANCE}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=1.0]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-1.0]}], argument2=j[function=Direct{l[type=CacheOnce, wrapped=j[function=Direct{INSTANCE}]]}], minValue=-1.0, maxValue=-1.0]}], minValue=0.0, maxValue=0.0]}], minValue=0.0, maxValue=0.0]}], argument2=j[function=Direct{w[spline=e[coordinate=Coordinate[Direct{l[type=FlatCache, wrapped=j[function=Direct{v[shiftX=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{s[offsetNoise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:offset]=a[firstOctave=-3, amplitudes=[1.0, 1.0, 1.0, 0.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@273e110]]}]]}]]}], shiftY=j[function=Direct{h[value=0.0]}], shiftZ=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{t[offsetNoise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:offset]=a[firstOctave=-3, amplitudes=[1.0, 1.0, 1.0, 0.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@273e110]]}]]}]]}], xzScale=0.25, yScale=0.0, noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:continentalness]=a[firstOctave=-9, amplitudes=[1.0, 1.0, 2.0, 2.0, 2.0, 1.0, 1.0, 1.0, 1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@4dd3a96b]]}]]}], locations=[F@6986ab37, values=[c[value=-1.0], c[value=2.0]], derivatives=[F@5f51a02c, minValue=-1.0, maxValue=2.0]]}], minValue=-1.0, maxValue=2.0]}]]}]]}], minValue=-2.5, maxValue=3.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{INSTANCE}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=-0.0]}], argument2=j[function=Direct{h[value=1.5]}], minValue=1.5, maxValue=1.5]}], minValue=1.5, maxValue=1.5]}], minValue=1.5, maxValue=1.5]}]]}]]}], argument2=j[function=Direct{k[type=HALF_NEGATIVE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:jagged]=a[firstOctave=-16, amplitudes=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@6fd4872e], xzScale=1500.0, yScale=0.0]}], minValue=-3.137254901960784, maxValue=6.274509803921568]}], minValue=-4.705882352941176, maxValue=9.411764705882351]}], minValue=-7.205882352941176, maxValue=12.911764705882351]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-0.0, maxValue=0.0]}], minValue=-0.0, maxValue=0.0]}], minValue=-0.0, maxValue=0.0]}], argument2=j[function=Direct{net.minecraft.world.level.levelgen.synth.BlendedNoise@7f1d00c6}], minValue=-8.844120000000002, maxValue=8.844120000000002]}], minValue=-5.660236800000002, maxValue=5.660236800000002]}], minValue=-4.160236800000002, maxValue=7.160236800000002], minValue=0.0, maxValue=0.5]}], minValue=-1.0, maxValue=1.5]}], minValue=-1.0, maxValue=45.944444444444436]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-1.0, maxValue=0.0]}] and j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{h[value=0.0]}], minValue=0.0, maxValue=0.0]}]
-[16:40:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:40:19] [Server thread/INFO]: Time elapsed: 221 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:40:19] [Server thread/INFO]: Time elapsed: 67 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:40:19] [Server thread/INFO]: Time elapsed: 57 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:pax
-[16:40:19] [Server thread/INFO]: Time elapsed: 61 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:the_faewild
-[16:40:19] [Server thread/INFO]: Time elapsed: 58 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:the_underdark
-[16:40:19] [Server thread/INFO]: Time elapsed: 28 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:sanctum
-[16:40:19] [Server thread/INFO]: Time elapsed: 19 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:the_brine
-[16:40:19] [Server thread/INFO]: Time elapsed: 87 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:panacea
-[16:40:19] [Server thread/INFO]: Time elapsed: 32 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:void
-[16:40:19] [Server thread/INFO]: Time elapsed: 44 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:varskspace
-[16:40:19] [Server thread/INFO]: Time elapsed: 35 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:dormis
-[16:40:19] [Server thread/INFO]: Time elapsed: 47 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:omnidrome
-[16:40:19] [Server thread/INFO]: Time elapsed: 31 ms
-[16:40:19] [Server thread/INFO]: Preparing start region for dimension bracken:glacium
-[16:40:19] [Server thread/INFO]: Time elapsed: 32 ms
-[16:40:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[16:40:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[16:40:19] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
-[16:40:19] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[16:40:19] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[16:40:20] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
-[16:40:20] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
-[16:40:20] [Server thread/INFO]:          __
-[16:40:20] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
-[16:40:20] [Server thread/INFO]:    |  | |        by OliPulse
-[16:40:20] [Server thread/INFO]:  
-[16:40:20] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
-[16:40:20] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.3
-[16:40:20] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[16:40:20] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.3
-[16:40:20] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[16:40:20] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
-[16:40:21] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
-[16:40:21] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[16:40:21] [pool-25-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
-[16:40:21] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[16:40:21] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[16:40:21] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 1: Initial
-[16:40:21] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 2: Add uuid mode
-[16:40:22] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 3: Fix inventories
-[16:40:22] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 4: Add name index
-[16:40:22] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[16:40:22] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[16:40:22] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[16:40:22] [Server thread/INFO]: [ZombieApocalypse] Enabling ZombieApocalypse v1.4.10
-[16:40:22] [Server thread/INFO]: [ZombieApocalypse] Configuration has been successfully loaded!
-[16:40:22] [Server thread/INFO]: [ZombieApocalypse] If you really love this project, you could consider donating to help me keep this project alive! https://paypal.me/3ricL
-[16:40:22] [Server thread/INFO]: [ZombieApocalypse] PaperMC detected! Changing spawning algorithm accordingly
-[16:40:22] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_pax"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_faewild"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_underdark"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_sanctum"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_brine"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_panacea"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_void"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_varskspace"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_dormis"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_omnidrome"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_glacium"
-[16:40:22] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[16:40:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:40:22] [Server thread/INFO]: [Geyser-Spigot] 
-[16:40:22] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
-[16:40:22] [Server thread/INFO]: [Geyser-Spigot] 
-[16:40:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:40:24] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
-[16:40:28] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
-[16:40:28] [Server thread/INFO]: [Geyser-Spigot] Done (5.271s)! Run /geyser help for help!
-[16:40:28] [Server thread/INFO]: Running delayed init tasks
-[16:40:28] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
-[16:40:28] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:40:28] [Server thread/INFO]: Done (18.871s)! For help, type "help"
-[16:40:28] [Server thread/INFO]: Timings Reset
-[16:40:28] [Craft Scheduler Thread - 1 - ZombieApocalypse/INFO]: [ZombieApocalypse] Checking for updates...
-[16:40:28] [Craft Scheduler Thread - 1 - ZombieApocalypse/INFO]: [ZombieApocalypse] Update detected! You are using version 1.4.10, but version 1.4.11 is available!
-[16:40:28] [Craft Scheduler Thread - 1 - ZombieApocalypse/INFO]: [ZombieApocalypse] You can download the new version here -> https://www.spigotmc.org/resources/82106/updates
-[16:40:32] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:trapped_chest",Properties:{facing:"up"}}
-[16:40:36] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
-[16:40:38] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
-[16:42:17] [User Authenticator #0/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
-[16:42:17] [Server thread/INFO]: Yupiberth joined the game
-[16:42:17] [Server thread/INFO]: Yupiberth[/127.194.137.192:53707] logged in with entity id 817 at ([world]-74.5, 75.0, 39.5)
-[16:42:17] [Server thread/INFO]: Yupiberth has made the advancement [A Sincere Thanks.]
-[16:42:41] [Server thread/INFO]: Yupiberth lost connection: Disconnected
-[16:42:41] [Server thread/INFO]: Yupiberth left the game
-[16:43:01] [Server thread/INFO]: Stopping the server
-[16:43:01] [Server thread/INFO]: Stopping server
-[16:43:01] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
-[16:43:01] [Server thread/INFO]: [ZombieApocalypse] Disabling ZombieApocalypse v1.4.10
-[16:43:01] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
-[16:43:01] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[16:43:01] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[16:43:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
-[16:43:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[16:43:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[16:43:01] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.3
-[16:43:01] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[16:43:01] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.3
-[16:43:01] [Server thread/INFO]: [MeteoritesPro] Disabling MeteoritesPro v1.5.3
-[16:43:01] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
-[16:43:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[16:43:01] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
-[16:43:01] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[16:43:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
-[16:43:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[16:43:01] [Server thread/INFO]: Saving players
-[16:43:01] [WebSocketConnectReadThread-91/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[16:43:01] [Server thread/INFO]: Saving worlds
-[16:43:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:43:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:43:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:43:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:43:02] [Server thread/INFO]: [ChunkHolderManager] Saved 1679 block chunks, 625 entity chunks, 0 poi chunks in world 'world' in 1.37s
-[16:43:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:43:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:43:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:43:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:43:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:43:03] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.51s
-[16:43:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:43:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:43:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:43:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:43:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:43:03] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
-[16:43:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:43:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_pax]'/bracken:pax
-[16:43:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_pax'
-[16:43:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_pax'
-[16:43:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_pax'
-[16:43:04] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_pax' in 0.53s
-[16:43:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (pax): All chunks are saved
-[16:43:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_faewild]'/bracken:the_faewild
-[16:43:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_faewild'
-[16:43:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_faewild'
-[16:43:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_faewild'
-[16:43:04] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_the_faewild' in 0.24s
-[16:43:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_faewild): All chunks are saved
-[16:43:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_underdark]'/bracken:the_underdark
-[16:43:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_underdark'
-[16:43:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_underdark'
-[16:43:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_underdark'
-[16:43:05] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_the_underdark' in 0.82s
-[16:43:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_underdark): All chunks are saved
-[16:43:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_sanctum]'/bracken:sanctum
-[16:43:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_sanctum'
-[16:43:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_sanctum'
-[16:43:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_sanctum'
-[16:43:06] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_sanctum' in 0.46s
-[16:43:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (sanctum): All chunks are saved
-[16:43:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_brine]'/bracken:the_brine
-[16:43:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_brine'
-[16:43:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_brine'
-[16:43:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_brine'
-[16:43:06] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_the_brine' in 0.51s
-[16:43:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_brine): All chunks are saved
-[16:43:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_panacea]'/bracken:panacea
-[16:43:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_panacea'
-[16:43:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_panacea'
-[16:43:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_panacea'
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_panacea' in 0.42s
-[16:43:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (panacea): All chunks are saved
-[16:43:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_void]'/bracken:void
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_void'
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_void'
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_void'
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_void' in 0.11s
-[16:43:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
-[16:43:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_varskspace]'/bracken:varskspace
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_varskspace'
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_varskspace'
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_varskspace'
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_varskspace' in 0.45s
-[16:43:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (varskspace): All chunks are saved
-[16:43:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_dormis]'/bracken:dormis
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_dormis'
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_dormis'
-[16:43:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_dormis'
-[16:43:08] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_dormis' in 1.12s
-[16:43:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (dormis): All chunks are saved
-[16:43:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_omnidrome]'/bracken:omnidrome
-[16:43:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_omnidrome'
-[16:43:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_omnidrome'
-[16:43:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_omnidrome'
-[16:43:09] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_omnidrome' in 0.32s
-[16:43:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (omnidrome): All chunks are saved
-[16:43:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_glacium]'/bracken:glacium
-[16:43:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_glacium'
-[16:43:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_glacium'
-[16:43:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_glacium'
-[16:43:09] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_bracken_glacium' in 0.59s
-[16:43:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacium): All chunks are saved
-[16:43:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:43:10] [Server thread/INFO]: Flushing Chunk IO
-[16:43:10] [Server thread/INFO]: Closing Thread Pool
-[16:43:10] [Server thread/INFO]: Closing Server
+[17:15:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[17:15:23] [Server thread/INFO]: Default game type: SURVIVAL
+[17:15:23] [Server thread/INFO]: Generating keypair
+[17:15:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:15:23] [Server thread/INFO]: Using epoll channel type
+[17:15:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:15:23] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[17:15:24] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[17:15:24] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[17:15:24] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[17:15:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:15:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:15:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:15:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:15:25] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[17:15:25] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:15:26] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[17:15:26] [Server thread/INFO]: [floodgate] Took 475ms to boot Floodgate
+[17:15:26] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[17:15:26] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[17:15:26] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[17:15:26] [Server thread/INFO]: [MeteoritesPro] Loading server plugin MeteoritesPro v1.5.3
+[17:15:26] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
+[17:15:26] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.3
+[17:15:26] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
+[17:15:26] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:15:26] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:15:26] [Server thread/INFO]: [BloodMoon] Loading server plugin BloodMoon v0.8.1
+[17:15:26] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[17:15:26] [Server thread/INFO]: [ZombieApocalypse] Loading server plugin ZombieApocalypse v1.4.10
+[17:15:26] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
+[17:15:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:15:26] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[17:15:27] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[17:15:27] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[17:15:27] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[17:15:27] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[17:15:27] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[17:15:27] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[17:15:27] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[17:15:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:15:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:15:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:15:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:15:27] [Server thread/INFO]: Preparing level "world"
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[17:15:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[17:15:29] [Server thread/WARN]: Creating a MIN function between two non-overlapping inputs: j[function=Direct{a[type=MIN, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=SQUARE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_layer]=a[firstOctave=-8, amplitudes=[1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@37969c27], xzScale=1.0, yScale=8.0]}], minValue=0.0, maxValue=11.111111111111109]}], minValue=0.0, maxValue=44.444444444444436]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=0.27]}], argument2=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_cheese]=a[firstOctave=-8, amplitudes=[0.5, 1.0, 2.0, 1.0, 2.0, 1.0, 0.0, 2.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@52208f96], xzScale=1.0, yScale=0.6666666666666666]}], minValue=-5.0749527959331875, maxValue=5.614952795933187], minValue=-1.0, maxValue=1.0]}], argument2=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=1.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-0.64]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=QUARTER_NEGATIVE, input=j[function=Direct{a[type=MUL, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{aa[fromY=0, toY=256, fromValue=1.5, toValue=-1.5]}], argument2=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{INSTANCE}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=1.0]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-1.0]}], argument2=j[function=Direct{l[type=CacheOnce, wrapped=j[function=Direct{INSTANCE}]]}], minValue=-1.0, maxValue=-1.0]}], minValue=0.0, maxValue=0.0]}], minValue=0.0, maxValue=0.0]}], argument2=j[function=Direct{w[spline=e[coordinate=Coordinate[Direct{l[type=FlatCache, wrapped=j[function=Direct{v[shiftX=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{s[offsetNoise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:offset]=a[firstOctave=-3, amplitudes=[1.0, 1.0, 1.0, 0.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@3d293a2f]]}]]}]]}], shiftY=j[function=Direct{h[value=0.0]}], shiftZ=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{t[offsetNoise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:offset]=a[firstOctave=-3, amplitudes=[1.0, 1.0, 1.0, 0.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@3d293a2f]]}]]}]]}], xzScale=0.25, yScale=0.0, noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:continentalness]=a[firstOctave=-9, amplitudes=[1.0, 1.0, 2.0, 2.0, 2.0, 1.0, 1.0, 1.0, 1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@5b590a1]]}]]}], locations=[F@578da102, values=[c[value=-1.0], c[value=2.0]], derivatives=[F@c68cb9a, minValue=-1.0, maxValue=2.0]]}], minValue=-1.0, maxValue=2.0]}]]}]]}], minValue=-2.5, maxValue=3.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{INSTANCE}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=-0.0]}], argument2=j[function=Direct{h[value=1.5]}], minValue=1.5, maxValue=1.5]}], minValue=1.5, maxValue=1.5]}], minValue=1.5, maxValue=1.5]}]]}]]}], argument2=j[function=Direct{k[type=HALF_NEGATIVE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:jagged]=a[firstOctave=-16, amplitudes=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@1d23e610], xzScale=1500.0, yScale=0.0]}], minValue=-3.137254901960784, maxValue=6.274509803921568]}], minValue=-4.705882352941176, maxValue=9.411764705882351]}], minValue=-7.205882352941176, maxValue=12.911764705882351]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-0.0, maxValue=0.0]}], minValue=-0.0, maxValue=0.0]}], minValue=-0.0, maxValue=0.0]}], argument2=j[function=Direct{net.minecraft.world.level.levelgen.synth.BlendedNoise@279cd107}], minValue=-8.844120000000002, maxValue=8.844120000000002]}], minValue=-5.660236800000002, maxValue=5.660236800000002]}], minValue=-4.160236800000002, maxValue=7.160236800000002], minValue=0.0, maxValue=0.5]}], minValue=-1.0, maxValue=1.5]}], minValue=-1.0, maxValue=45.944444444444436]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-1.0, maxValue=0.0]}] and j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{h[value=0.0]}], minValue=0.0, maxValue=0.0]}]
+[17:15:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:15:29] [Server thread/INFO]: Time elapsed: 273 ms
+[17:15:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:15:30] [Server thread/INFO]: Time elapsed: 106 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:15:30] [Server thread/INFO]: Time elapsed: 61 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:void
+[17:15:30] [Server thread/INFO]: Time elapsed: 52 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:the_underdark
+[17:15:30] [Server thread/INFO]: Time elapsed: 52 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:dormis
+[17:15:30] [Server thread/INFO]: Time elapsed: 28 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:panacea
+[17:15:30] [Server thread/INFO]: Time elapsed: 36 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:sanctum
+[17:15:30] [Server thread/INFO]: Time elapsed: 46 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:the_brine
+[17:15:30] [Server thread/INFO]: Time elapsed: 28 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:pax
+[17:15:30] [Server thread/INFO]: Time elapsed: 31 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:varskspace
+[17:15:30] [Server thread/INFO]: Time elapsed: 29 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:the_faewild
+[17:15:30] [Server thread/INFO]: Time elapsed: 38 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:omnidrome
+[17:15:30] [Server thread/INFO]: Time elapsed: 32 ms
+[17:15:30] [Server thread/INFO]: Preparing start region for dimension bracken:glacium
+[17:15:30] [Server thread/INFO]: Time elapsed: 42 ms
+[17:15:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[17:15:30] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[17:15:30] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[17:15:30] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[17:15:30] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:15:31] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[17:15:31] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
+[17:15:31] [Server thread/INFO]:          __
+[17:15:31] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
+[17:15:31] [Server thread/INFO]:    |  | |        by OliPulse
+[17:15:31] [Server thread/INFO]:  
+[17:15:31] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[17:15:31] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.3
+[17:15:31] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[17:15:31] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.3
+[17:15:31] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[17:15:31] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
+[17:15:31] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[17:15:31] [Server thread/INFO]: [BloodMoon] Enabling BloodMoon v0.8.1
+[17:15:31] [pool-25-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[17:15:32] [Server thread/INFO]: [BloodMoon] This plugin is still in its infancy. If you encounter a bug, please report it to https://www.spigotmc.org/threads/bloodmoon.412741/
+[17:15:32] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[17:15:32] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[17:15:32] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[17:15:32] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[17:15:32] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[17:15:32] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[17:15:32] [Server thread/INFO]: [ZombieApocalypse] Enabling ZombieApocalypse v1.4.10
+[17:15:32] [Server thread/INFO]: [ZombieApocalypse] Configuration has been successfully loaded!
+[17:15:32] [Server thread/INFO]: [ZombieApocalypse] If you really love this project, you could consider donating to help me keep this project alive! https://paypal.me/3ricL
+[17:15:32] [Server thread/INFO]: [ZombieApocalypse] PaperMC detected! Changing spawning algorithm accordingly
+[17:15:32] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_void"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_underdark"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_dormis"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_panacea"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_sanctum"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_brine"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_pax"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_varskspace"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_faewild"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_omnidrome"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:32] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_glacium"
+[17:15:32] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[17:15:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:15:33] [Server thread/INFO]: [Geyser-Spigot] 
+[17:15:33] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
+[17:15:33] [Server thread/INFO]: [Geyser-Spigot] 
+[17:15:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:15:34] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
+[17:15:37] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
+[17:15:37] [Server thread/INFO]: [Geyser-Spigot] Done (4.849s)! Run /geyser help for help!
+[17:15:38] [Server thread/INFO]: Running delayed init tasks
+[17:15:38] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[17:15:38] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:15:38] [Server thread/INFO]: Done (16.037s)! For help, type "help"
+[17:15:38] [Server thread/INFO]: Timings Reset
+[17:15:38] [Craft Scheduler Thread - 1 - ZombieApocalypse/INFO]: [ZombieApocalypse] Checking for updates...
+[17:15:38] [Craft Scheduler Thread - 1 - ZombieApocalypse/INFO]: [ZombieApocalypse] Update detected! You are using version 1.4.10, but version 1.4.11 is available!
+[17:15:38] [Craft Scheduler Thread - 1 - ZombieApocalypse/INFO]: [ZombieApocalypse] You can download the new version here -> https://www.spigotmc.org/resources/82106/updates
+[17:15:42] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:trapped_chest",Properties:{facing:"up"}}
+[17:15:43] [Server thread/INFO]: [Not Secure] [Server] hola
+[17:15:46] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
+[17:15:48] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
+[17:17:52] [User Authenticator #0/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
+[17:17:52] [Server thread/INFO]: Yupiberth joined the game
+[17:17:52] [Server thread/INFO]: Yupiberth[/127.194.137.192:51263] logged in with entity id 865 at ([world]-74.5, 75.0, 39.5)
+[17:18:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Yupiberth> enep
+[17:19:11] [Server thread/INFO]: [Not Secure] [Server] no toques nada aun que este servidor lo hare publico en un rato
+[17:19:16] [Async Chat Thread - #3/INFO]: [Not Secure] <Yupiberth> oka
+[17:19:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Yupiberth> estoy testeando
+[17:19:25] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[17:19:29] [Server thread/INFO]: [Not Secure] [Server] dl
+[17:20:36] [Server thread/INFO]: Yupiberth tried to swim in lava
+[17:20:40] [Async Chat Thread - #5/INFO]: [Not Secure] <Yupiberth> yaesta
+[17:20:41] [Server thread/INFO]: Yupiberth lost connection: Disconnected
+[17:20:41] [Server thread/INFO]: Yupiberth left the game
+[17:22:10] [User Authenticator #1/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
+[17:22:10] [Server thread/INFO]: Yupiberth joined the game
+[17:22:10] [Server thread/INFO]: Yupiberth[/127.194.137.192:35435] logged in with entity id 1953 at ([world]-80.0, 70.0, 48.0)
+[17:22:47] [Server thread/INFO]: Yupiberth lost connection: Disconnected
+[17:22:47] [Server thread/INFO]: Yupiberth left the game
+[17:23:16] [Server thread/INFO]: Stopping the server
+[17:23:16] [Server thread/INFO]: Stopping server
+[17:23:16] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
+[17:23:16] [Server thread/INFO]: [ZombieApocalypse] Disabling ZombieApocalypse v1.4.10
+[17:23:16] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[17:23:16] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[17:23:16] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[17:23:16] [Server thread/INFO]: [BloodMoon] Disabling BloodMoon v0.8.1
+[17:23:16] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
+[17:23:16] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[17:23:16] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[17:23:16] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.3
+[17:23:16] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[17:23:16] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.3
+[17:23:16] [Server thread/INFO]: [MeteoritesPro] Disabling MeteoritesPro v1.5.3
+[17:23:16] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[17:23:16] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[17:23:16] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
+[17:23:16] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:23:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
+[17:23:16] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[17:23:16] [Server thread/INFO]: Saving players
+[17:23:16] [WebSocketConnectReadThread-92/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[17:23:16] [Server thread/INFO]: Saving worlds
+[17:23:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:23:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:23:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:23:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 1529 block chunks, 428 entity chunks, 0 poi chunks in world 'world' in 1.09s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 12 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_void]'/bracken:void
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_void'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_void'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_void'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_void' in 0.00s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_underdark]'/bracken:the_underdark
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_underdark'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_underdark'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_underdark'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_the_underdark' in 0.00s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_underdark): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_dormis]'/bracken:dormis
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_dormis'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_dormis'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_dormis'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_bracken_dormis' in 0.00s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (dormis): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_panacea]'/bracken:panacea
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_panacea'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_panacea'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_panacea'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 36 entity chunks, 0 poi chunks in world 'world_bracken_panacea' in 0.01s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (panacea): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_sanctum]'/bracken:sanctum
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_sanctum'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_sanctum'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_sanctum'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 27 entity chunks, 0 poi chunks in world 'world_bracken_sanctum' in 0.01s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (sanctum): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_brine]'/bracken:the_brine
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_brine'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_brine'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_brine'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 23 entity chunks, 0 poi chunks in world 'world_bracken_the_brine' in 0.00s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_brine): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_pax]'/bracken:pax
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_pax'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_pax'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_pax'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 17 block chunks, 70 entity chunks, 0 poi chunks in world 'world_bracken_pax' in 0.03s
+[17:23:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (pax): All chunks are saved
+[17:23:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_varskspace]'/bracken:varskspace
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_varskspace'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_varskspace'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_varskspace'
+[17:23:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_bracken_varskspace' in 0.00s
+[17:23:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (varskspace): All chunks are saved
+[17:23:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_faewild]'/bracken:the_faewild
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_faewild'
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_faewild'
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_faewild'
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 130 entity chunks, 0 poi chunks in world 'world_bracken_the_faewild' in 0.03s
+[17:23:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_faewild): All chunks are saved
+[17:23:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_omnidrome]'/bracken:omnidrome
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_omnidrome'
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_omnidrome'
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_omnidrome'
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_bracken_omnidrome' in 0.00s
+[17:23:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (omnidrome): All chunks are saved
+[17:23:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_glacium]'/bracken:glacium
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_glacium'
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_glacium'
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_glacium'
+[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_glacium' in 0.00s
+[17:23:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacium): All chunks are saved
+[17:23:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:23:18] [Server thread/INFO]: Flushing Chunk IO
+[17:23:18] [Server thread/INFO]: Closing Thread Pool
+[17:23:18] [Server thread/INFO]: Closing Server

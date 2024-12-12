@@ -23,8 +23,8 @@ bedrock:
   clone-remote-port: false
   # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. This is irrelevant if "passthrough-motd" is set to true
   # If either of these are empty, the respective string will default to "Geyser"
-  motd1: "Geyser"
-  motd2: "Another Geyser server."
+  motd1: "\u00a72\u00a7l\u2620 \u00a73\u00a7l[ \u00a7c\u00a7lShare \u00a79\u00a7lAny\u00a77\u00a7lthing \u00a74\u00a7l- \u00a7d\u00a7l1.7 - 1.21.x \u00a73\u00a7l] \u00a76\u00a7l\ud83e\ude93"
+  motd2: ""
   # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
   server-name: "Geyser"
   # How much to compress network traffic to the Bedrock client. The higher the number, the more CPU usage used, but
@@ -53,7 +53,7 @@ remote:
   # Authentication type. Can be offline, online, or floodgate (see https://github.com/GeyserMC/Geyser/wiki/Floodgate).
   # For plugin versions, it's recommended to keep the `address` field to "auto" so Floodgate support is automatically configured.
   # If Floodgate is installed and `address:` is set to "auto", then "auth-type: floodgate" will automatically be used.
-  auth-type: online
+  auth-type: Floodgate
   # Whether to enable PROXY protocol or not while connecting to the server.
   # This is useful only when:
   # 1) Your server supports PROXY protocol (it probably doesn't)
