@@ -1,195 +1,43 @@
-[04:24:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04:24:41] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[04:24:43] [ServerMain/INFO]: Loaded 7 recipes
-[04:24:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[04:24:44] [Server thread/INFO]: Loading properties
-[04:24:44] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[04:24:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:24:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:24:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[04:24:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[04:24:46] [Server thread/INFO]: Default game type: SURVIVAL
-[04:24:46] [Server thread/INFO]: Generating keypair
-[04:24:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:24:46] [Server thread/INFO]: Using epoll channel type
-[04:24:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:24:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
-[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
-[04:24:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[04:24:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[04:24:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:24:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:24:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[04:24:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[04:24:48] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[04:24:48] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:24:49] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[04:24:49] [Server thread/INFO]: [floodgate] Took 590ms to boot Floodgate
-[04:24:49] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
-[04:24:49] [Server thread/INFO]: [MeteoritesPro] Loading server plugin MeteoritesPro v1.5.3
-[04:24:49] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
-[04:24:49] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.3
-[04:24:49] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
-[04:24:49] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[04:24:49] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[04:24:49] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[04:24:49] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
-[04:24:49] [Server thread/INFO]: [ZombieApocalypse] Loading server plugin ZombieApocalypse v1.4.10
-[04:24:49] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
-[04:24:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:24:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[04:24:50] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[04:24:50] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[04:24:50] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[04:24:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:24:51] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[04:24:51] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[04:24:51] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
-[04:24:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:24:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:24:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:24:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:24:51] [Server thread/INFO]: Preparing level "world"
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:25:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:25:01] [Server thread/INFO]: Time elapsed: 305 ms
-[04:25:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:25:01] [Server thread/INFO]: Time elapsed: 104 ms
-[04:25:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:25:01] [Server thread/INFO]: Time elapsed: 53 ms
-[04:25:01] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[04:25:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[04:25:01] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:25:01] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
-[04:25:01] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
-[04:25:01] [Server thread/INFO]:          __
-[04:25:01] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
-[04:25:01] [Server thread/INFO]:    |  | |        by OliPulse
-[04:25:01] [Server thread/INFO]:  
-[04:25:01] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
-[04:25:01] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.3
-[04:25:01] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[04:25:01] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.3
-[04:25:01] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[04:25:01] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
-[04:25:02] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
-[04:25:02] [Server thread/INFO]: [ZombieApocalypse] Enabling ZombieApocalypse v1.4.10
-[04:25:02] [Server thread/INFO]: [ZombieApocalypse] Configuration has been successfully loaded!
-[04:25:02] [Server thread/INFO]: [ZombieApocalypse] If you really love this project, you could consider donating to help me keep this project alive! https://paypal.me/3ricL
-[04:25:02] [Server thread/INFO]: [ZombieApocalypse] PaperMC detected! Changing spawning algorithm accordingly
-[04:25:02] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
-[04:25:02] [pool-24-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
-[04:25:02] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
-[04:25:02] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[04:25:02] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
-[04:25:02] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[04:25:02] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
-[04:25:02] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[04:25:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:25:02] [Server thread/INFO]: [Geyser-Spigot] 
-[04:25:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
-[04:25:02] [Server thread/INFO]: [Geyser-Spigot] 
-[04:25:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:25:06] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[04:25:06] [Server thread/INFO]: [Geyser-Spigot] Done (3.238s)! Run /geyser help for help!
-[04:25:06] [Server thread/INFO]: Running delayed init tasks
-[04:25:06] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
-[04:25:06] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:25:06] [Server thread/INFO]: Done (21.697s)! For help, type "help"
-[04:25:06] [Server thread/INFO]: Timings Reset
-[04:25:06] [Craft Scheduler Thread - 2 - ZombieApocalypse/INFO]: [ZombieApocalypse] Checking for updates...
-[04:25:06] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.0, you're on: 5.1.1
-[04:25:06] [Craft Scheduler Thread - 2 - ZombieApocalypse/INFO]: [ZombieApocalypse] Update detected! You are using version 1.4.10, but version 1.4.11 is available!
-[04:25:06] [Craft Scheduler Thread - 2 - ZombieApocalypse/INFO]: [ZombieApocalypse] You can download the new version here -> https://www.spigotmc.org/resources/82106/updates
-[04:25:23] [Server thread/INFO]: Stopping the server
-[04:25:23] [Server thread/INFO]: Stopping server
-[04:25:23] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
-[04:25:23] [Server thread/INFO]: [ZombieApocalypse] Disabling ZombieApocalypse v1.4.10
-[04:25:23] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.3
-[04:25:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[04:25:23] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
-[04:25:23] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[04:25:23] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[04:25:23] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.3
-[04:25:23] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[04:25:23] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.3
-[04:25:23] [Server thread/INFO]: [MeteoritesPro] Disabling MeteoritesPro v1.5.3
-[04:25:23] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.1.1
-[04:25:23] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:25:23] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
-[04:25:23] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[04:25:23] [Server thread/INFO]: Saving players
-[04:25:23] [WebSocketConnectReadThread-90/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[04:25:23] [Server thread/INFO]: Saving worlds
-[04:25:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:25:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[04:25:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[04:25:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[04:25:25] [Server thread/INFO]: [ChunkHolderManager] Saved 1584 block chunks, 1 entity chunks, 0 poi chunks in world 'world' in 1.52s
-[04:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:25:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[04:25:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[04:25:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[04:25:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Saved 1849 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.98s
-[04:25:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:25:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.41s
-[04:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04:25:27] [Server thread/INFO]: Flushing Chunk IO
-[04:25:27] [Server thread/INFO]: Closing Thread Pool
-[04:25:27] [Server thread/INFO]: Closing Server
+[04:51:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:51:32] [ServerMain/INFO]: Found new data pack file/Dungeons and Taverns, loading it automatically
+[04:51:32] [ServerMain/INFO]: Found new data pack file/Incendium, loading it automatically
+[04:51:32] [ServerMain/INFO]: Found new data pack file/Terra, loading it automatically
+[04:51:32] [ServerMain/INFO]: Found new data pack file/The Bracken Pack, loading it automatically
+[04:51:33] [ServerMain/WARN]: Creating a MIN function between two non-overlapping inputs: j[function=Direct{a[type=MIN, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=SQUARE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_layer]=null}, noise=null], xzScale=1.0, yScale=8.0]}], minValue=0.0, maxValue=4.0]}], minValue=0.0, maxValue=16.0]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=0.27]}], argument2=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_cheese]=null}, noise=null], xzScale=1.0, yScale=0.6666666666666666]}], minValue=-1.73, maxValue=2.27], minValue=-1.0, maxValue=1.0]}], argument2=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=1.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-0.64]}], argument2=j[function=Reference{ResourceKey[minecraft:worldgen/density_function / bracken:omnidrome/sloped_cheese]=null}], minValue=-Infinity, maxValue=Infinity]}], minValue=-Infinity, maxValue=Infinity], minValue=0.0, maxValue=0.5]}], minValue=-1.0, maxValue=1.5]}], minValue=-1.0, maxValue=17.5]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-1.0, maxValue=0.0]}] and j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{h[value=0.0]}], minValue=0.0, maxValue=0.0]}]
+[04:51:33] [ServerMain/ERROR]: Registry loading errors:
+> Errors in registry minecraft:root:
+>> Errors in element minecraft:worldgen/placed_feature:
+java.lang.IllegalStateException: Unbound values in registry ResourceKey[minecraft:root / minecraft:worldgen/placed_feature]: [incendium:ash_barrens/ash_delta, incendium:ash_barrens/ash_replace, incendium:ash_barrens/ash_vegetation, incendium:ash_barrens/crimson_patch_large, incendium:ash_barrens/crimson_patch_small, incendium:ash_barrens/tree, incendium:ash_barrens/tree_bend, incendium:ash_barrens/vines_ceiling, incendium:ash_barrens/vines_ceiling_dx, incendium:infernal_dunes/blood_vines, incendium:infernal_dunes/blood_vines_long, incendium:infernal_dunes/bush, incendium:infernal_dunes/delta, incendium:infernal_dunes/dune, incendium:inverted_forest/trees_extra, incendium:inverted_forest/trees_step1, incendium:inverted_forest/trees_step2, incendium:inverted_forest/trees_step2_big, incendium:inverted_forest/trees_up_inner, incendium:inverted_forest/trees_up_outer, incendium:inverted_forest/trees_vines, incendium:nothing, incendium:quartz_flats/quartz_crystal, incendium:quartz_flats/quartz_delta, incendium:quartz_flats/quartz_replace, incendium:quartz_flats/soul_fire_rings, terralith:savanna/shattered/med/acacia_med, terralith:savanna/shattered/med/oak_med, terralith:savanna/shattered/med/trees_med, terralith:savanna/shattered/small/trees_small, terralith:savanna/shattered/tiny/trees_tiny, terralith:shield/trees, terralith:shield/trees_birch, terralith:shield/trees_lark, terralith:shrubland/bushes, terralith:shrubland/cold/bushes, terralith:shrubland/cold/cone_trees, terralith:shrubland/cold/small_trees, terralith:shrubland/cold/tiny_trees, terralith:shrubland/cone_trees, terralith:shrubland/disk_podzol, terralith:shrubland/disk_terracotta, terralith:shrubland/hot/bushes, terralith:shrubland/hot/cone_trees, terralith:shrubland/hot/small_trees, terralith:shrubland/hot/tiny_trees, terralith:shrubland/small_trees, terralith:skylands/big_cone_tree, terralith:skylands/cloud_tree_birch, terralith:skylands/dirt_tops, terralith:skylands/extend_down, terralith:skylands/extend_down_high, terralith:skylands/floating_islands, terralith:skylands/grassy_tops, terralith:skylands/lichen, terralith:skylands/mega_tree, terralith:skylands/mid_tree, terralith:skylands/patch_grass, terralith:skylands/patch_pumpkin, terralith:skylands/spring/extend_down, terralith:skylands/spring/extend_down_high, terralith:skylands/spring/floating_islands, terralith:skylands/spring/flowers, terralith:skylands/spring/lake, terralith:skylands/spring/lichen, terralith:skylands/spring/trees, terralith:skylands/spring_water, terralith:skylands/summer/azalea_tree, terralith:skylands/summer/bending_acacia, terralith:skylands/summer/cactus, terralith:skylands/summer/extend_down, terralith:skylands/summer/extend_down_high, terralith:skylands/summer/floating_islands, terralith:skylands/summer/glowberries, terralith:skylands/summer/grassy_tops, terralith:skylands/summer/mud_lines, terralith:skylands/summer/tall_flowers, terralith:skylands/summer/trees, terralith:skylands/trees, terralith:skylands/waterfall, terralith:skylands/wheat, terralith:skylands/winter/big_oak, terralith:skylands/winter/extend_down, terralith:skylands/winter/extend_down_high, terralith:skylands/winter/floating_islands, terralith:skylands/winter/grassy_tops, terralith:skylands/winter/lichen, terralith:skylands/winter/mega_spruce, terralith:skylands/winter/oak, terralith:skylands/winter/trees, terralith:snowy/badlands/snow, terralith:snowy/badlands/terracotta, terralith:snowy/fix_grass, terralith:snowy/fix_snow, terralith:snowy/layer/first, terralith:snowy/layer/second, terralith:snowy/layer/third, terralith:snowy/max_spruce, terralith:snowy/mega_spruce, terralith:snowy/spruce, terralith:snowy/spruce_tiny, terralith:snowy/trees_center, terralith:snowy/trees_edge, terralith:snowy/trees_giant, terralith:snowy/trees_outer, terralith:spires/azalea_rare, terralith:spires/cliff, terralith:spires/dripstone, terralith:spires/grass, terralith:spires/oak_tree, terralith:spires/ore_diorite_upper, terralith:spires/patch_grass, terralith:spires/spruce_trees, terralith:spires/tall_foliage, terralith:swamp/ice/small/swamp_small, terralith:swamp/ice/small/swamp_special_small, terralith:swamp/ice/small/trees_small, terralith:swamp/ice/tiny/swamp_special_tiny, terralith:swamp/ice/tiny/swamp_tiny, terralith:swamp/ice/tiny/trees_tiny, terralith:swamp/orchid/dripleaf, terralith:swamp/orchid/dripleaf_clay, terralith:swamp/orchid/flowers, terralith:swamp/orchid/small/swamp_small, terralith:swamp/orchid/small/swamp_special_small, terralith:swamp/orchid/small/trees_small, terralith:swamp/vanilla/old_trees, terralith:swamp/vanilla/swamp_detail, terralith:swamp/vanilla/trees, terralith:swamp/vanilla/water_decor, terralith:taiga/birch/birch, terralith:taiga/birch/birch_small, terralith:taiga/birch/boulders, terralith:taiga/birch/cloud_tree, terralith:taiga/birch/oak, terralith:taiga/birch/pond, terralith:taiga/birch/trees_small, terralith:taiga/lush/flowers, terralith:taiga/mega/boulders, terralith:taiga/mid/pine_mid, terralith:taiga/mid/spruce_mid, terralith:taiga/mid/spruce_mid_m, terralith:taiga/mid/trees_mid, terralith:taiga/siberian/trees_new, terralith:taiga/siberian/trees_new_orange, terralith:taiga/small/pine_small, terralith:taiga/small/spruce_small, terralith:taiga/small/spruce_small_m, terralith:taiga/small/trees_small, terralith:taiga/tall/pine_tall, terralith:taiga/tall/spruce_tall, terralith:taiga/tall/spruce_tall_m, terralith:taiga/tall/trees_tall, terralith:taiga/tiny/pine_tiny, terralith:taiga/tiny/spruce_tiny, terralith:taiga/tiny/spruce_tiny_m, terralith:taiga/tiny/trees_tiny, incendium:toxic_heap/junk_pile, incendium:toxic_heap/lava_flows, incendium:toxic_heap/spike, terralith:valley/blue_terra, terralith:valley/cyan_terra, terralith:valley/green_terra, terralith:valley/light_blue_terra, terralith:valley/lime_terra, terralith:valley/purple_terra, incendium:volcanic_deltas/delta, incendium:volcanic_deltas/eruption, terralith:volcano/crater_fixer, terralith:volcano/lava_flow, terralith:volcano/lava_lakes, terralith:volcano/magma_barrier, terralith:volcano/spring_lava, terralith:volcano/top_secret_do_not_touch, incendium:weeping_valley/ceiling, incendium:weeping_valley/surface, incendium:weeping_valley/tendril1_ceiling, incendium:weeping_valley/tendril1_floor, incendium:weeping_valley/tendril2_ceiling, incendium:weeping_valley/tendril2_floor, incendium:withered_forest/trees, terralith:yellowstone/acid_basalt, terralith:yellowstone/acid_black, terralith:yellowstone/acid_gravel, terralith:yellowstone/acid_orange, terralith:yellowstone/acid_yellow, terralith:yellowstone/birch, terralith:yellowstone/birch_alt, terralith:yellowstone/birch_trees, terralith:yellowstone/birch_trees_alt, terralith:yellowstone/lakes, terralith:yellowstone/magma, terralith:yellowstone/spruce_big, terralith:yellowstone/spruce_big_alt, terralith:yellowstone/spruce_trees_big, terralith:yellowstone/spruce_trees_big_alt, terralith:yellowstone/terra_sand, terralith:yellowstone/vents, terralith:yosemite/calcite, terralith:yosemite/diorite, terralith:yosemite/disk_stone, terralith:yosemite/grass, terralith:yosemite/oak, terralith:yosemite/oak_mega, terralith:yosemite/oaks, terralith:yosemite/waterfall]
+	at net.minecraft.core.RegistryMaterials.l(RegistryMaterials.java:351)
+	at net.minecraft.resources.RegistryDataLoader.b(RegistryDataLoader.java:69)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.a(RegistryDataLoader.java:65)
+	at net.minecraft.server.WorldLoader.a(WorldLoader.java:54)
+	at net.minecraft.server.WorldLoader.b(WorldLoader.java:58)
+	at net.minecraft.server.WorldLoader.a(WorldLoader.java:31)
+	at net.minecraft.server.Main.lambda$main$2(Main.java:258)
+	at net.minecraft.SystemUtils.a(SystemUtils.java:821)
+	at net.minecraft.SystemUtils.c(SystemUtils.java:816)
+	at net.minecraft.server.Main.main(Main.java:257)
+	at org.bukkit.craftbukkit.Main.main(Main.java:324)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[04:51:33] [ServerMain/WARN]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Failed to load registries due to above errors
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:289) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.Main.main(Main.java:324) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalStateException: Failed to load registries due to above errors
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:77) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:58) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:31) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.Main.lambda$main$2(Main.java:258) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.Util.blockUntilDone(Util.java:821) ~[?:?]
+	at net.minecraft.Util.blockUntilDone(Util.java:816) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:257) ~[paper-1.20.1.jar:git-Paper-196]
+	... 3 more
