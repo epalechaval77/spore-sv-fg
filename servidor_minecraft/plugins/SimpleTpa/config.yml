@@ -158,13 +158,13 @@ invincibility-seconds: 5
 #This will keep the teleport request alive for X seconds
 keep-alive: 60
 #This will delay the teleportation for X seconds
-delay-back-command: 5
-delay-teleportation: 5
+delay-back-command: 0
+delay-teleportation: 0
 #Cooldowns
-back-cooldown: 10
-tpa-cooldown: 10
-tpahere-cooldown: 10
-tpahereall-cooldown: 10
+back-cooldown: 0
+tpa-cooldown: 0
+tpahere-cooldown: 0
+tpahereall-cooldown: 0
 #To set a custom cooldown, you need to add a permission : simpletpa.cooldown.Y.X where Y is the command and  X are the seconds.
 #The options for commands are: tpa | tpahere | back | tpahereall
 #Example: simpletpa.cooldown.tpa.300 | simpletpa.cooldown.tpahere.300 | simpletpa.cooldown.tpahereall.300 | simpletpa.cooldown.back.300
