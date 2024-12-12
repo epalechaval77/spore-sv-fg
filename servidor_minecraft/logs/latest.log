@@ -1,430 +1,195 @@
-[09Dec2024 17:30:37.481] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[09Dec2024 17:30:37.485] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[09Dec2024 17:30:37.767] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[09Dec2024 17:30:37.808] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/spore-sv-fg/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[09Dec2024 17:30:38.063] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[09Dec2024 17:30:38.065] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09Dec2024 17:30:38.066] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09Dec2024 17:30:38.068] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09Dec2024 17:30:38.321] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
-[09Dec2024 17:30:39.994] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[09Dec2024 17:30:40.055] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[09Dec2024 17:30:40.471] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[09Dec2024 17:30:46.508] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[09Dec2024 17:30:46.508] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[09Dec2024 17:30:48.121] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.BaseEntities.Infected from class com.Harbinger.Spore.Sentities.BaseEntities.Hyper
-[09Dec2024 17:30:48.338] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[09Dec2024 17:30:48.365] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[09Dec2024 17:30:48.490] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[09Dec2024 17:30:48.500] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[09Dec2024 17:30:48.500] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[09Dec2024 17:30:48.501] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[09Dec2024 17:30:48.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
-[09Dec2024 17:30:48.978] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[09Dec2024 17:30:49.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.26 Target: null
-[09Dec2024 17:30:49.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09Dec2024 17:30:49.543] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[09Dec2024 17:30:49.544] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[09Dec2024 17:30:49.588] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
-[09Dec2024 17:30:52.129] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[09Dec2024 17:30:52.130] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[09Dec2024 17:30:52.130] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[09Dec2024 17:30:52.130] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[09Dec2024 17:30:52.130] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[09Dec2024 17:30:52.130] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[09Dec2024 17:30:52.130] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[09Dec2024 17:30:52.130] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
-[09Dec2024 17:30:52.149] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[09Dec2024 17:30:52.149] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[09Dec2024 17:30:52.149] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[09Dec2024 17:30:52.150] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[09Dec2024 17:30:53.255] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09Dec2024 17:30:53.996] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/spore-sv-fg/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23121!/assets/.mcassetsroot' uses unexpected schema
-[09Dec2024 17:30:53.996] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/spore-sv-fg/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23121!/data/.mcassetsroot' uses unexpected schema
-[09Dec2024 17:30:56.005] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[09Dec2024 17:30:56.897] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:organic_compost_from_body_parts
-com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:straw'
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23126!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23126!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23126!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[09Dec2024 17:30:56.934] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/amethyst_dust
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
-	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[09Dec2024 17:30:56.944] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:pressing/compound_plate
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:pressing'
-	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[09Dec2024 17:30:56.948] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:mixing/compound
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
-	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[09Dec2024 17:30:56.955] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/amethyst_dust
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:milling'
-	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[09Dec2024 17:30:56.961] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[09Dec2024 17:30:57.070] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1523 advancements
-[09Dec2024 17:30:57.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[09Dec2024 17:30:57.732] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[09Dec2024 17:30:57.732] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[09Dec2024 17:30:57.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09Dec2024 17:30:57.926] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[09Dec2024 17:30:57.961] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[09Dec2024 17:30:58.043] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09Dec2024 17:30:58.044] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[09Dec2024 17:30:58.044] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09Dec2024 17:30:58.044] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[09Dec2024 17:30:58.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[09Dec2024 17:30:58.557] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[09Dec2024 17:31:01.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[09Dec2024 17:31:05.500] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:05.501] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:05.501] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:05.502] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:05.503] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:05.503] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:05.504] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:05.505] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:05.505] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:05.739] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 17:31:06.240] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[09Dec2024 17:31:06.553] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5315 ms
-[09Dec2024 17:31:06.554] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.497s)! For help, type "help"
-[09Dec2024 17:31:06.571] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[09Dec2024 17:31:06.573] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[09Dec2024 17:31:06.581] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'summary-demanding.gl.at.ply.gg:2221'
-[09Dec2024 17:31:06.582] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 2221
-[09Dec2024 17:32:35.184] [ForkJoinPool.commonPool-worker-1/WARN] [SkinRestorer/]: Failed to fetch skin: not found
-[09Dec2024 17:32:35.270] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iVeerzay[/127.173.103.240:47327] logged in with entity id 336 at (-47.5, 67.0, -22.5)
-[09Dec2024 17:32:35.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay joined the game
-[09Dec2024 17:32:36.327] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of iVeerzay (18)
-[09Dec2024 17:32:36.329] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to iVeerzay
-[09Dec2024 17:32:59.415] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 16216ff4-2903-338e-8c75-1183b582c2e9
-[09Dec2024 17:33:00.415] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 16216ff4-2903-338e-8c75-1183b582c2e9
-[09Dec2024 17:33:00.418] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player iVeerzay (16216ff4-2903-338e-8c75-1183b582c2e9) successfully connected to voice chat
-[09Dec2024 17:33:20.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] asd
-[09Dec2024 17:33:24.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> ola
-[09Dec2024 17:33:25.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] alo quienes entraron
-[09Dec2024 17:34:03.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Alex's Mobs]
-[09Dec2024 17:34:55.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] andare haciendo unas cosas ya entro, ahi vendra alguien mas portate bien con el
-[09Dec2024 17:35:06.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> oye juego normal surviva?
-[09Dec2024 17:35:07.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> XDXD
-[09Dec2024 17:35:10.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[09Dec2024 17:35:10.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: si<--[HERE]
-[09Dec2024 17:35:15.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] sk
-[09Dec2024 17:35:18.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] si
-[09Dec2024 17:35:22.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> vale
-[09Dec2024 17:39:44.672] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=72, z=-33} BlockPos{x=-58, y=63, z=-27}
-[09Dec2024 17:39:45.021] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=72, z=-33} BlockPos{x=-57, y=64, z=-27}
-[09Dec2024 17:39:49.067] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=72, z=-33} BlockPos{x=-57, y=65, z=-25}
-[09Dec2024 17:39:49.316] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=72, z=-33} BlockPos{x=-58, y=65, z=-25}
-[09Dec2024 17:39:49.416] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=72, z=-33} BlockPos{x=-58, y=66, z=-24}
-[09Dec2024 17:41:15.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] alo
-[09Dec2024 17:41:19.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] quienes estan
-[09Dec2024 17:41:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Stone Age]
-[09Dec2024 17:41:23.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> YO
-[09Dec2024 17:41:23.799] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Romnd[/127.189.140.85:46327] logged in with entity id 6569 at (-57.5, 77.0, -19.5)
-[09Dec2024 17:41:23.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd joined the game
-[09Dec2024 17:41:24.776] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Romnd (18)
-[09Dec2024 17:41:24.776] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Romnd
-[09Dec2024 17:41:29.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola rom
-[09Dec2024 17:41:40.383] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2cf7219f-1309-3be4-8672-30459d9a12f7
-[09Dec2024 17:41:41.384] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2cf7219f-1309-3be4-8672-30459d9a12f7
-[09Dec2024 17:41:41.385] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Romnd (2cf7219f-1309-3be4-8672-30459d9a12f7) successfully connected to voice chat
-[09Dec2024 17:41:45.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] ya entro, llevate bien el pana que lo invite a testear
-[09Dec2024 17:41:54.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Romnd> hola
-[09Dec2024 17:41:57.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> hi
-[09Dec2024 17:42:03.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] no se maten
-[09Dec2024 17:42:05.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Romnd> que hubo
-[09Dec2024 17:42:15.050] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Romnd lost connection: Disconnected
-[09Dec2024 17:42:15.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd left the game
-[09Dec2024 17:42:15.052] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Romnd
-[09Dec2024 17:43:02.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Getting an Upgrade]
-[09Dec2024 17:43:36.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] q
-[09Dec2024 17:43:41.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> c fue el papu
-[09Dec2024 17:43:44.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] XD
-[09Dec2024 17:44:35.850] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Romnd[/127.189.140.85:42325] logged in with entity id 9222 at (-125.5188128995278, 67.0, 71.4307963290919)
-[09Dec2024 17:44:35.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd joined the game
-[09Dec2024 17:44:36.662] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Romnd (18)
-[09Dec2024 17:44:36.662] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Romnd
-[09Dec2024 17:44:50.817] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2cf7219f-1309-3be4-8672-30459d9a12f7
-[09Dec2024 17:44:51.817] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2cf7219f-1309-3be4-8672-30459d9a12f7
-[09Dec2024 17:44:51.818] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Romnd (2cf7219f-1309-3be4-8672-30459d9a12f7) successfully connected to voice chat
-[09Dec2024 17:45:03.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay was shot by Skeleton
-[09Dec2024 17:45:13.768] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-55, y=64, z=-15}
-[09Dec2024 17:45:15.669] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-54, y=65, z=-19}
-[09Dec2024 17:45:16.275] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-55, y=65, z=-18}
-[09Dec2024 17:45:17.269] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-55, y=65, z=-18}
-[09Dec2024 17:45:18.350] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-55, y=64, z=-17}
-[09Dec2024 17:45:18.626] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-56, y=65, z=-17}
-[09Dec2024 17:46:13.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola que pssohola que paso aso
-[09Dec2024 17:46:21.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Stone Age]
-[09Dec2024 17:46:32.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] estan los 2? ya voy entrando
-[09Dec2024 17:47:24.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Romnd> toma
-[09Dec2024 17:47:39.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Getting an Upgrade]
-[09Dec2024 17:51:46.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Alex's Mobs]
-[09Dec2024 17:51:50.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> pera
-[09Dec2024 17:52:28.869] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-325, y=64, z=-86} BlockPos{x=-325, y=63, z=-85}
-[09Dec2024 17:52:30.118] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-326, y=66, z=-88} BlockPos{x=-326, y=65, z=-90}
-[09Dec2024 17:54:04.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola
-[09Dec2024 17:55:27.932] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 16216ff4-2903-338e-8c75-1183b582c2e9 timed out
-[09Dec2024 17:55:27.933] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player iVeerzay
-[09Dec2024 17:55:27.934] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to iVeerzay
-[09Dec2024 17:55:38.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> se fue el audio
-[09Dec2024 17:55:40.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iVeerzay> XD
-[09Dec2024 17:55:41.788] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 16216ff4-2903-338e-8c75-1183b582c2e9
-[09Dec2024 17:55:42.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 16216ff4-2903-338e-8c75-1183b582c2e9
-[09Dec2024 17:55:42.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player iVeerzay (16216ff4-2903-338e-8c75-1183b582c2e9) successfully connected to voice chat
-[09Dec2024 17:56:54.395] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rCesar_[/127.254.202.117:45809] logged in with entity id 15851 at (-132.2332288697064, -8.0, -54.2662425283169)
-[09Dec2024 17:56:54.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ joined the game
-[09Dec2024 17:56:56.491] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of rCesar_ (18)
-[09Dec2024 17:56:56.491] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to rCesar_
-[09Dec2024 17:57:18.167] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player c81e10d8-a2b3-370d-a0ee-7688f0683cc9
-[09Dec2024 17:57:19.156] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player c81e10d8-a2b3-370d-a0ee-7688f0683cc9
-[09Dec2024 17:57:19.156] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player rCesar_ (c81e10d8-a2b3-370d-a0ee-7688f0683cc9) successfully connected to voice chat
-[09Dec2024 17:57:29.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported rCesar_ to Romnd]
-[09Dec2024 17:58:00.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> no se han matado vdd?
-[09Dec2024 17:58:12.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Romnd> no
-[09Dec2024 17:58:37.194] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-32, y=76, z=-161} BlockPos{x=-31, y=74, z=-160}
-[09Dec2024 17:58:41.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported rCesar_ to Romnd]
-[09Dec2024 17:59:11.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd fell from a high place
-[09Dec2024 17:59:26.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported Romnd to rCesar_]
-[09Dec2024 18:00:13.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> el no está en la fg rom, no conoce a dau
-[09Dec2024 18:00:33.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay fell from a high place
-[09Dec2024 18:00:48.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> ando testeando el ping, por cierto como les va de ping
-[09Dec2024 18:00:55.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported iVeerzay to rCesar_]
-[09Dec2024 18:01:16.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Acquire Hardware]
-[09Dec2024 18:01:25.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> por cierto rom como spawnean jefes del spore aca
-[09Dec2024 18:02:20.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Monster Hunter]
-[09Dec2024 18:02:30.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay forgot Phayres was a bioweapon
-[09Dec2024 18:02:31.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> en 2 horas y 28 minutos abre sv
-[09Dec2024 18:02:59.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd was slain by Grizzly Bear
-[09Dec2024 18:03:01.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Acquire Hardware]
-[09Dec2024 18:03:04.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> XD
-[09Dec2024 18:03:11.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Pic-A-Nic Basket?]
-[09Dec2024 18:03:13.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Made Romnd a server operator]
-[09Dec2024 18:03:17.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> ya tienes op
-[09Dec2024 18:03:47.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> y el oso
-[09Dec2024 18:04:10.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Pic-A-Nic Basket?]
-[09Dec2024 18:04:11.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> mira está infección
-[09Dec2024 18:04:22.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd was slain by Phayres
-[09Dec2024 18:04:23.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay was eaten alive by Phayres
-[09Dec2024 18:04:29.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -53.500000, -14.500000, -84.500000]
-[09Dec2024 18:04:32.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd was slain by iVeerzay
-[09Dec2024 18:04:34.076] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['iVeerzay'/19744, l='ServerLevel[world]', x=-53.31, y=-14.71, z=-82.77] died: iVeerzay was shot by rCesar_
-[09Dec2024 18:04:44.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> ya ando en eso
-[09Dec2024 18:04:44.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported iVeerzay to rCesar_]
-[09Dec2024 18:04:44.752] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['Romnd'/19859, l='ServerLevel[world]', x=-53.50, y=-14.55, z=-80.52] died: Romnd was shot by rCesar_
-[09Dec2024 18:04:48.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set own game mode to Creative Mode]
-[09Dec2024 18:04:55.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Spore]
-[09Dec2024 18:04:57.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> mira está infección
-[09Dec2024 18:04:59.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to rCesar_]
-[09Dec2024 18:05:18.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> JAJA está casa cualquiera
-[09Dec2024 18:05:23.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set own game mode to Survival Mode]
-[09Dec2024 18:05:25.943] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['iVeerzay'/18767, l='ServerLevel[world]', x=-79.63, y=-35.00, z=-83.08] died: iVeerzay was shot by Romnd
-[09Dec2024 18:05:27.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Monster Hunter]
-[09Dec2024 18:05:32.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Spore]
-[09Dec2024 18:05:41.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported iVeerzay to Romnd]
-[09Dec2024 18:05:41.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> rom que arma traes
-[09Dec2024 18:05:52.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set own game mode to Creative Mode]
-[09Dec2024 18:06:50.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Isn't It Iron Pick]
-[09Dec2024 18:06:52.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set own game mode to Survival Mode]
-[09Dec2024 18:06:56.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> jaja el lanza misil funciona como el propulsor del mob de la 1.21 la brisa
-[09Dec2024 18:07:00.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Isn't It Iron Pick]
-[09Dec2024 18:07:07.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set rCesar_'s game mode to Adventure Mode]
-[09Dec2024 18:07:35.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> mmguevo ando en aventura
-[09Dec2024 18:07:39.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Not Today, Thank You]
-[09Dec2024 18:07:40.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Set own game mode to Creative Mode]
-[09Dec2024 18:08:19.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> con la z visualizas el arma
-[09Dec2024 18:08:23.799] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rCesar_ moved too quickly! 1.7676114648261176,-9.127242061530342,4.070500149957468
-[09Dec2024 18:08:25.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ has made the advancement [Stone Age]
-[09Dec2024 18:08:44.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> no la veo
-[09Dec2024 18:08:50.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> y ando lag dejen reinicio
-[09Dec2024 18:08:58.448] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rCesar_ lost connection: Disconnected
-[09Dec2024 18:08:58.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ left the game
-[09Dec2024 18:08:58.449] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client rCesar_
-[09Dec2024 18:09:29.859] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rCesar_[/127.254.202.117:53593] logged in with entity id 22155 at (-63.352088090978086, -26.0, -78.27948044233327)
-[09Dec2024 18:09:29.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ joined the game
-[09Dec2024 18:09:33.347] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of rCesar_ (18)
-[09Dec2024 18:09:33.348] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to rCesar_
-[09Dec2024 18:09:36.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set rCesar_'s game mode to Survival Mode]
-[09Dec2024 18:10:05.956] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player c81e10d8-a2b3-370d-a0ee-7688f0683cc9
-[09Dec2024 18:10:06.961] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player c81e10d8-a2b3-370d-a0ee-7688f0683cc9
-[09Dec2024 18:10:06.962] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player rCesar_ (c81e10d8-a2b3-370d-a0ee-7688f0683cc9) successfully connected to voice chat
-[09Dec2024 18:10:18.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported rCesar_ to Romnd]
-[09Dec2024 18:10:33.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Set own game mode to Creative Mode]
-[09Dec2024 18:10:43.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd was slain by Zombie
-[09Dec2024 18:10:47.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> X
-[09Dec2024 18:10:51.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -41.500000, -29.500000, -48.500000]
-[09Dec2024 18:11:02.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set rCesar_'s game mode to Survival Mode]
-[09Dec2024 18:11:47.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Diamonds!]
-[09Dec2024 18:12:03.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [KEEP ROLLIN' ROLLIN' ROLLIN']
-[09Dec2024 18:12:03.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ has made the advancement [KEEP ROLLIN' ROLLIN' ROLLIN']
-[09Dec2024 18:12:12.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ hit the ground too hard
-[09Dec2024 18:12:12.159] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for rCesar_ with unique ID travelersbackpack.standard_09.12.2024-18.12.12.dat
-[09Dec2024 18:12:12.162] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: -72 Y: -28 Z: -43
-[09Dec2024 18:12:12.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd was eaten alive by Wendigo
-[09Dec2024 18:12:12.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay was shot by Skeleton
-[09Dec2024 18:12:20.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> comencemos de 0
-[09Dec2024 18:12:21.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -73.500000, -50.500000, 12.500000]
-[09Dec2024 18:12:30.759] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-43, y=63, z=-15}
-[09Dec2024 18:12:30.807] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-43, y=64, z=-17}
-[09Dec2024 18:12:32.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Teleported 3 entities to rCesar_]
-[09Dec2024 18:12:34.758] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=63, z=-16}
-[09Dec2024 18:12:37.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set own game mode to Creative Mode]
-[09Dec2024 18:12:41.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> hay pvp?
-[09Dec2024 18:12:44.405] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-34, y=66, z=-26}
-[09Dec2024 18:12:49.004] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=68, z=-29}
-[09Dec2024 18:12:50.203] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=69, z=-29}
-[09Dec2024 18:12:55.453] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=70, z=-29}
-[09Dec2024 18:12:55.954] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-36, y=69, z=-29}
-[09Dec2024 18:13:02.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Set own game mode to Survival Mode]
-[09Dec2024 18:13:09.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> porque hay Spawn protection
-[09Dec2024 18:13:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -50.500000, -13.500000, -85.500000]
-[09Dec2024 18:13:59.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ has made the advancement [Pic-A-Nic Basket?]
-[09Dec2024 18:14:14.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to 212.500000, 105.500000, -1411.500000]
-[09Dec2024 18:14:14.903] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2522ms or 50 ticks behind
-[09Dec2024 18:14:14.947] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rCesar_ moved too quickly! -9.287589198538058,0.8322033533667508,4.410075403895732
-[09Dec2024 18:14:19.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -695.500000, 76.500000, -1054.500000]
-[09Dec2024 18:14:19.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rCesar_ moved too quickly! -9.056887219960402,1.6960483987325432,4.663822161282262
-[09Dec2024 18:14:21.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to rCesar_]
-[09Dec2024 18:14:32.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> comen,ando
-[09Dec2024 18:15:05.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> no, luego perdemosntodo
-[09Dec2024 18:15:15.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ has made the advancement [Getting an Upgrade]
-[09Dec2024 18:15:53.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported iVeerzay to rCesar_]
-[09Dec2024 18:16:57.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iVeerzay has made the advancement [Mine? Mine? Mine?]
-[09Dec2024 18:17:04.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> no
-[09Dec2024 18:17:10.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> era para ver si estabas vivo
-[09Dec2024 18:17:33.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> cuantas veces lo habrás visto
-[09Dec2024 18:18:06.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Ol' Betsy]
-[09Dec2024 18:18:06.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd has made the advancement [Take Aim]
-[09Dec2024 18:18:53.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> está vez no
-[09Dec2024 18:20:09.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Romnd was slain by Cachalot Whale
-[09Dec2024 18:20:14.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Romnd: Teleported Romnd to -412.500000, 62.500000, 25.500000]
-[09Dec2024 18:20:39.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rCesar_ has made the advancement [Sweet Dreams]
-[09Dec2024 18:20:45.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rCesar_: Gamerule playersSleepingPercentage is now set to: 1]
-[09Dec2024 18:20:53.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rCesar_> tengo herrero aca
+[04:24:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:24:41] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[04:24:43] [ServerMain/INFO]: Loaded 7 recipes
+[04:24:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[04:24:44] [Server thread/INFO]: Loading properties
+[04:24:44] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[04:24:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:24:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:24:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[04:24:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[04:24:46] [Server thread/INFO]: Default game type: SURVIVAL
+[04:24:46] [Server thread/INFO]: Generating keypair
+[04:24:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:24:46] [Server thread/INFO]: Using epoll channel type
+[04:24:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:24:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[04:24:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/spore-sv-fg/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[04:24:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[04:24:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[04:24:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:24:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:24:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[04:24:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[04:24:48] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[04:24:48] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:24:49] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:24:49] [Server thread/INFO]: [floodgate] Took 590ms to boot Floodgate
+[04:24:49] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
+[04:24:49] [Server thread/INFO]: [MeteoritesPro] Loading server plugin MeteoritesPro v1.5.3
+[04:24:49] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
+[04:24:49] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.3
+[04:24:49] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
+[04:24:49] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:24:49] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:24:49] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[04:24:49] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
+[04:24:49] [Server thread/INFO]: [ZombieApocalypse] Loading server plugin ZombieApocalypse v1.4.10
+[04:24:49] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
+[04:24:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:24:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[04:24:50] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[04:24:50] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[04:24:50] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[04:24:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:24:51] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[04:24:51] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[04:24:51] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
+[04:24:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:24:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:24:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:24:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:24:51] [Server thread/INFO]: Preparing level "world"
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:24:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:25:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:25:01] [Server thread/INFO]: Time elapsed: 305 ms
+[04:25:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:25:01] [Server thread/INFO]: Time elapsed: 104 ms
+[04:25:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:25:01] [Server thread/INFO]: Time elapsed: 53 ms
+[04:25:01] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[04:25:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[04:25:01] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:25:01] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
+[04:25:01] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
+[04:25:01] [Server thread/INFO]:          __
+[04:25:01] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
+[04:25:01] [Server thread/INFO]:    |  | |        by OliPulse
+[04:25:01] [Server thread/INFO]:  
+[04:25:01] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[04:25:01] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.3
+[04:25:01] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[04:25:01] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.3
+[04:25:01] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[04:25:01] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
+[04:25:02] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[04:25:02] [Server thread/INFO]: [ZombieApocalypse] Enabling ZombieApocalypse v1.4.10
+[04:25:02] [Server thread/INFO]: [ZombieApocalypse] Configuration has been successfully loaded!
+[04:25:02] [Server thread/INFO]: [ZombieApocalypse] If you really love this project, you could consider donating to help me keep this project alive! https://paypal.me/3ricL
+[04:25:02] [Server thread/INFO]: [ZombieApocalypse] PaperMC detected! Changing spawning algorithm accordingly
+[04:25:02] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
+[04:25:02] [pool-24-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[04:25:02] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
+[04:25:02] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[04:25:02] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[04:25:02] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[04:25:02] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[04:25:02] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[04:25:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:25:02] [Server thread/INFO]: [Geyser-Spigot] 
+[04:25:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
+[04:25:02] [Server thread/INFO]: [Geyser-Spigot] 
+[04:25:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:25:06] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[04:25:06] [Server thread/INFO]: [Geyser-Spigot] Done (3.238s)! Run /geyser help for help!
+[04:25:06] [Server thread/INFO]: Running delayed init tasks
+[04:25:06] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[04:25:06] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:25:06] [Server thread/INFO]: Done (21.697s)! For help, type "help"
+[04:25:06] [Server thread/INFO]: Timings Reset
+[04:25:06] [Craft Scheduler Thread - 2 - ZombieApocalypse/INFO]: [ZombieApocalypse] Checking for updates...
+[04:25:06] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.0, you're on: 5.1.1
+[04:25:06] [Craft Scheduler Thread - 2 - ZombieApocalypse/INFO]: [ZombieApocalypse] Update detected! You are using version 1.4.10, but version 1.4.11 is available!
+[04:25:06] [Craft Scheduler Thread - 2 - ZombieApocalypse/INFO]: [ZombieApocalypse] You can download the new version here -> https://www.spigotmc.org/resources/82106/updates
+[04:25:23] [Server thread/INFO]: Stopping the server
+[04:25:23] [Server thread/INFO]: Stopping server
+[04:25:23] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
+[04:25:23] [Server thread/INFO]: [ZombieApocalypse] Disabling ZombieApocalypse v1.4.10
+[04:25:23] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.3
+[04:25:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[04:25:23] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
+[04:25:23] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[04:25:23] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[04:25:23] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.3
+[04:25:23] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[04:25:23] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.3
+[04:25:23] [Server thread/INFO]: [MeteoritesPro] Disabling MeteoritesPro v1.5.3
+[04:25:23] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.1.1
+[04:25:23] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:25:23] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
+[04:25:23] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[04:25:23] [Server thread/INFO]: Saving players
+[04:25:23] [WebSocketConnectReadThread-90/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[04:25:23] [Server thread/INFO]: Saving worlds
+[04:25:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:25:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:25:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:25:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:25:25] [Server thread/INFO]: [ChunkHolderManager] Saved 1584 block chunks, 1 entity chunks, 0 poi chunks in world 'world' in 1.52s
+[04:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:25:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:25:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:25:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:25:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Saved 1849 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.98s
+[04:25:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:25:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:25:26] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.41s
+[04:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:25:27] [Server thread/INFO]: Flushing Chunk IO
+[04:25:27] [Server thread/INFO]: Closing Thread Pool
+[04:25:27] [Server thread/INFO]: Closing Server
