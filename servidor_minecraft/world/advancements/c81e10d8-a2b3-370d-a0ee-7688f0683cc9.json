@@ -1588,74 +1588,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2024-12-13 05:18:15 +0000",
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 05:18:15 +0000"
+      "log_spam_fixer": "2024-12-13 05:29:15 +0000"
     },
     "done": false
   },
@@ -1665,9 +1664,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2024-12-13 05:19:28 +0000"
+    },
+    "done": true
+  },
   "incendium:infernal_dunes/inferno/root": {
     "criteria": {
       "requirement": "2024-12-13 05:14:32 +0000"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/inferno/run": {
+    "criteria": {
+      "requirement": "2024-12-13 05:21:00 +0000"
     },
     "done": true
   },
@@ -1707,6 +1718,12 @@
     },
     "done": true
   },
+  "bracken:sanctum/netherite": {
+    "criteria": {
+      "bracken:sanctum/netherite1": "2024-12-13 05:23:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2024-12-13 05:17:56 +0000"
@@ -1716,6 +1733,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2024-12-13 05:17:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab": {
+    "criteria": {
+      "has_cut_red_sandstone": "2024-12-13 05:21:40 +0000"
     },
     "done": true
   },
@@ -1734,6 +1757,12 @@
   "bracken:technical/dimension_border_text/faewild_to_overworld": {
     "criteria": {
       "requirement": "2024-12-13 05:09:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2024-12-13 05:19:28 +0000"
     },
     "done": true
   },
@@ -1761,15 +1790,45 @@
     },
     "done": true
   },
+  "bracken:panacea/tree": {
+    "criteria": {
+      "bracken:panacea/tree1": "2024-12-13 05:26:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2024-12-13 05:17:56 +0000"
     },
     "done": true
   },
+  "bracken:panacea/enter_panacea": {
+    "criteria": {
+      "bracken:panacea/pan1": "2024-12-13 05:25:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_prismarine_crystals": "2024-12-13 05:17:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-12-13 05:21:27 +0000"
+    },
+    "done": true
+  },
+  "bracken:pan": {
+    "criteria": {
+      "bracken:pan1": "2024-12-13 05:25:20 +0000"
+    },
+    "done": true
+  },
+  "bracken:sanctum/voidship": {
+    "criteria": {
+      "bracken:sanctum/dune_biome1": "2024-12-13 05:25:10 +0000"
     },
     "done": true
   },
@@ -1803,6 +1862,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2024-12-13 05:19:28 +0000"
+    },
+    "done": true
+  },
   "incendium:infernal_dunes/inferno/summon": {
     "criteria": {
       "requirement": "2024-12-13 05:17:33 +0000"
@@ -1830,6 +1895,12 @@
   "minecraft:nether/netherite_armor": {
     "criteria": {
       "netherite_armor": "2024-12-13 05:16:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_red_sandstone": "2024-12-13 05:21:40 +0000"
     },
     "done": true
   },
