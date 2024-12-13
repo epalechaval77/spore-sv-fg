@@ -8,7 +8,7 @@ register:
   # When enabled, requires users to enter their password twice upon registration.
   confirm-password: false
 login:
-  max-tries: 10
+  max-tries: 5
   # Only allow registered players to join using exactly the same name as registered.
   username-match-exact: true
 password:
@@ -35,7 +35,7 @@ registration:
   disabled-message: '&cRegistrations are currently disabled!'
 # Shortcut that can be used as alternative to login/register command. Does not replace the defaults
 command-shortcut:
-  enabled: true
+  enabled: false
   login: /l
   register: /reg
 updater:
@@ -45,7 +45,7 @@ updater:
 # Session timeout in seconds, set to -1 to disable.
 session-timeout: 60
 # Login timeout in seconds, set to -1 to disable.
-login-timeout: 500
+login-timeout: 120
 # Login/register message delay in seconds.
 login-message-delay: 10
 # Language for messages, check wiki for more info.
